@@ -37,6 +37,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AE80953A22FDFBFD00014F9E /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				AE80953822FDF2D500014F9E /* Message.swift */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		AECFEAB822E67D410000ED6C = {
 			isa = PBXGroup;
 			children = (
@@ -62,7 +70,7 @@
 				AECFEACB22E67D420000ED6C /* Assets.xcassets */,
 				AECFEACD22E67D420000ED6C /* LaunchScreen.storyboard */,
 				AECFEAD022E67D420000ED6C /* Info.plist */,
-				AE80953822FDF2D500014F9E /* Message.swift */,
+				AE80953A22FDFBFD00014F9E /* New Group */,
 			);
 			path = "Hello World";
 			sourceTree = "<group>";

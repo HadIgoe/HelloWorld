@@ -10,8 +10,7 @@ import Foundation
 
 class Message {
     
-    func showMessage()
-    {
+    func showMessage() {
         print("I love lamp!")
     }
 }
