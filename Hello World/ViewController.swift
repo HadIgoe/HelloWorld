@@ -10,20 +10,20 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var touchMeButton1: UIButton!
+    @IBOutlet weak var addPuppyButton: UIButton!
     @IBOutlet weak var counterLabel: UILabel!
     let message = Message()
     var puppyCounter = 1
     
-    @IBAction func touchMeButton(_ sender: Any) {
+    @IBAction func addPuppy(_ sender: Any) {
          if(puppyCounter <= 10){
             counterLabel.text = String(format: "You have %i puppies!", puppyCounter)
             puppyCounter+=1
         }
          else {
             counterLabel.text = "Woah! You have wayyyyy to many puppies. You need to be stopped!"
-            touchMeButton1.isEnabled = false
-            touchMeButton1.isHidden = true
+            addPuppyButton.isEnabled = false
+            addPuppyButton.isHidden = true
         }
     }
     
